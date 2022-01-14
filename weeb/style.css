@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    margin:0 auto;
+    background-image:url('try.gif');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    font-size:20px;
+    background-color:black;
+}
+#container{
+    display:flex;
+    
+    flex-direction:row;
+   
+    
+}
+.child{
+    margin:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:10px;
+    color:white;
+}
+.logo{ 
+    width:70px;
+    height:30px;
+    border-radius:50%;
+}
+#logo{
+    margin:0;
+    
+}
+
+#section1{
+    background-image: url('section1bg.gif');
+    height:800px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:15px;
+    
+    font-size: 40px;
+    color:white;
+}
+.hi{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+   
+}
+.hi:hover{
+    box-shadow:20px 20px 20px 20px black; 
+    border-radius:50%;
+
+}
+.frontend:hover,.backend:hover,.description:hover{
+    box-shadow:20px 20px 20px 20px black; 
+    border-radius:5px;
+}
+
+.parent{
+    max-width:1300px;
+    display:flex;
+    flex-direction:row;
+justify-content:space-between;
+flex:1;
+
+    
+    padding:20px;
+}  
+.backend{
+    width:50px;
+    height:100px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.card1,.card2{
+    color:white;
+    font-family: 'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    
+    
+    height:300px;
+    width:400px;
+   margin-bottom: 0;
+   padding-bottom:0;
+}
+#section2{
+    background-image: url('astro.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:800px;
+}
+.frontend,.backend{
+    width:500px;
+    height:300px;
+}
+.description{
+    width:500px;
+    height:300px;
+   
+}
+#section3{
+    background-image: url('section3bg.gif');
+    height:800px;
+    padding:40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+    font-family: 'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+footer{
+    height:25px;
+    background-color: black;
+}  
+.contact{
+    color:white;
+    font-family: 'Arial Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
